@@ -6,7 +6,7 @@
 }
 
 .ui.vertical.menu .item > i.hobbies.icon {
-  float: left;
+
 }
 
 #left-side-bar{
@@ -21,7 +21,17 @@
 #name{
   font-size: 40px;
 }
+.menu-footer {
+  position: absolute;
+  font-size: 12px;
+  bottom:0;
+  right:5%;
+}
+.menu-footer img{
+  width: 30px;
+  height: 30px;
 
+}
 div.item.subject-header{
   padding-top: 12px !important;
   padding-bottom: 5px !important;
@@ -69,10 +79,12 @@ div #content-header{
 
 div .meta a{
   font-size: 18px;
+
 }
 
 .summary{
   font-size: 20px;
+  padding-top:20px;
 }
 .content-footer{
   position: absolute;
