@@ -5,6 +5,10 @@
   margin: 0 1em 0 0;
 }
 
+.ui.vertical.menu .item > i.hobbies.icon {
+  float: left;
+}
+
 #left-side-bar{
   min-width: 325px ;
 }
@@ -17,6 +21,15 @@
 #name{
   font-size: 40px;
 }
+
+div.item.subject-header{
+  padding-top: 12px !important;
+  padding-bottom: 5px !important;
+}
+p.item.item-sub{
+  line-height: 175% !important;
+}
+
 body{
   background-color: lemonchiffon;
 }
@@ -47,9 +60,23 @@ div #content-header{
   min-height: 200px;
 }
 #image{
-
   float: left !important;
   margin-top: 10px; !important;
   padding-right: 10px;
   height: 300px;
+  width: 410px;
+}
+
+div .meta a{
+  font-size: 18px;
+}
+
+.summary{
+  font-size: 20px;
+}
+.content-footer{
+  position: absolute;
+  bottom:5%;
+  right:5%;
+  font-size: 20px;
 }
