@@ -1,0 +1,55 @@
+/* This block goes to site\collections\menu.overrides */
+.ui.vertical.menu .item > i.left.aligned.icon {
+  float: left;
+  /* @verticalIconMargin is a vanilla margin value of an icon inside of a vertical menu. You can find this variable in themes/default/collections/menu.variables */
+  margin: 0 1em 0 0;
+}
+
+#left-side-bar{
+  min-width: 325px ;
+}
+.menu .item-sub{
+  font-size: 15px !important;
+}
+.ui .menu{
+  font-size: 20px !important;
+}
+#name{
+  font-size: 40px;
+}
+body{
+  background-color: lemonchiffon;
+}
+div #content-header{
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#title {
+  padding-top: 20px;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+.subject-header {
+
+}
+#border-line{
+  padding-bottom: 10px;
+}
+#card-app-segment{
+  min-width: 950px !important;
+    cursor: default !important;
+}
+
+#content-title{
+  min-height: 200px;
+}
+#image{
+
+  float: left !important;
+  margin-top: 10px; !important;
+  padding-right: 10px;
+  height: 300px;
+}
