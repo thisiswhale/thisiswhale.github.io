@@ -65,7 +65,9 @@ div #content-header{
   min-width: 950px !important;
     cursor: default !important;
 }
-
+.meta a{
+  cursor: default !important;
+}
 #content-title{
   min-height: 200px;
 }
