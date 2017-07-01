@@ -1,0 +1,105 @@
+$window-1280: 1280px;
+$default-size-font: 20px;
+.ui.fluid.container{
+  width: 1430px;
+  max-width: 100%;
+  height: 1600px;
+  max-height: 100%;
+}
+
+.ui.vertical.menu .item > i.left.aligned.icon {
+  float: left;
+  /* @verticalIconMargin is a vanilla margin value of an icon inside of a vertical menu. You can find this variable in themes/default/collections/menu.variables */
+  margin: 0 1em 0 0;
+}
+
+#left-side-bar{
+  min-width: 325px/1430px *100%;
+}
+
+.ui {
+  font-size: 20px !important;
+
+  .menu .item-sub{
+    font-size: 15px !important;
+  }
+}
+
+#name{
+  font-size: 40px;
+}
+.menu-footer {
+  position: absolute;
+  font-size: 12px;
+  bottom:0;
+  right:5%;
+
+  img{
+    width: 30px;
+    height: 30px;
+  }
+}
+
+
+div{
+  .item.subject-header{
+  padding-top: 12px !important;
+  padding-bottom: 5px !important;
+  }
+
+  #content-header{
+    padding-top:5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .meta a{
+    font-size: 18px;
+    cursor: default !important;
+  }
+}
+
+p.item.item-sub{
+  line-height: 175% !important;
+}
+
+body{
+  background-color: lemonchiffon;
+}
+
+#title {
+  padding-top: 20px;
+  font-size: 40px !important;
+  margin-bottom: 25px;
+}
+
+#border-line{
+  padding-bottom: 10px;
+}
+#card-app-segment{
+
+  width:100%;
+  cursor: default !important;
+}
+#content-title{
+  min-height: 400px/1000px*100%;
+}
+#image{
+  float: left !important;
+  margin-top: 10px !important;
+  padding-right: 10px;
+  height: 300px;
+  width: 450px/885px * 100%;
+}
+
+.summary{
+  font-size: 20px;
+  padding-top:20px;
+}
+.content-footer{
+  position: absolute;
+  bottom:5%;
+  right:5%;
+  font-size: 20px;
+}

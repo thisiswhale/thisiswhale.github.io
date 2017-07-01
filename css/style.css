@@ -1,96 +1,82 @@
-/* This block goes to site\collections\menu.overrides */
+.ui.fluid.container {
+  width: 1430px;
+  max-width: 100%;
+  height: 1600px;
+  max-height: 100%; }
+
 .ui.vertical.menu .item > i.left.aligned.icon {
   float: left;
   /* @verticalIconMargin is a vanilla margin value of an icon inside of a vertical menu. You can find this variable in themes/default/collections/menu.variables */
-  margin: 0 1em 0 0;
-}
+  margin: 0 1em 0 0; }
 
-.ui.vertical.menu .item > i.hobbies.icon {
+#left-side-bar {
+  min-width: 22.72727%; }
 
-}
+.ui {
+  font-size: 20px !important; }
+  .ui .menu .item-sub {
+    font-size: 15px !important; }
 
-#left-side-bar{
-  min-width: 325px ;
-}
-.menu .item-sub{
-  font-size: 15px !important;
-}
-.ui .menu{
-  font-size: 20px !important;
-}
-#name{
-  font-size: 40px;
-}
+#name {
+  font-size: 40px; }
+
 .menu-footer {
   position: absolute;
   font-size: 12px;
-  bottom:0;
-  right:5%;
-}
-.menu-footer img{
-  width: 30px;
-  height: 30px;
+  bottom: 0;
+  right: 5%; }
+  .menu-footer img {
+    width: 30px;
+    height: 30px; }
 
-}
-div.item.subject-header{
+div .item.subject-header {
   padding-top: 12px !important;
-  padding-bottom: 5px !important;
-}
-p.item.item-sub{
-  line-height: 175% !important;
-}
-
-body{
-  background-color: lemonchiffon;
-}
-div #content-header{
-  padding-top:5px;
+  padding-bottom: 5px !important; }
+div #content-header {
+  padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 10px;
-  font-size: 20px;
-}
+  font-size: 20px; }
+div .meta a {
+  font-size: 18px;
+  cursor: default !important; }
+
+p.item.item-sub {
+  line-height: 175% !important; }
+
+body {
+  background-color: lemonchiffon; }
 
 #title {
   padding-top: 20px;
-  font-size: 40px;
-  margin-bottom: 25px;
-}
-.subject-header {
+  font-size: 40px !important;
+  margin-bottom: 25px; }
 
-}
-#border-line{
-  padding-bottom: 10px;
-}
-#card-app-segment{
-  min-width: 950px !important;
-    cursor: default !important;
-}
-.meta a{
-  cursor: default !important;
-}
-#content-title{
-  min-height: 200px;
-}
-#image{
+#border-line {
+  padding-bottom: 10px; }
+
+#card-app-segment {
+  width: 100%;
+  cursor: default !important; }
+
+#content-title {
+  min-height: 40%; }
+
+#image {
   float: left !important;
-  margin-top: 10px; !important;
+  margin-top: 10px !important;
   padding-right: 10px;
   height: 300px;
-  width: 410px;
-}
+  width: 50.84746%; }
 
-div .meta a{
-  font-size: 18px;
-
-}
-
-.summary{
+.summary {
   font-size: 20px;
-  padding-top:20px;
-}
-.content-footer{
+  padding-top: 20px; }
+
+.content-footer {
   position: absolute;
-  bottom:5%;
-  right:5%;
-  font-size: 20px;
-}
+  bottom: 5%;
+  right: 5%;
+  font-size: 20px; }
+
+/*# sourceMappingURL=style.css.map */
