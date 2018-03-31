@@ -1,18 +1,12 @@
-.header nav {
+.ui.menu.fixed {
   -webkit-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2) !important;
   -moz-box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2) !important;
-  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2) !important;
-  height: 72px; }
-  .header nav a.navbar-brand {
-    font-size: 32px;
-    font-weight: bold; }
-  .header nav div.collapse.navbar-collapse {
-    font-size: 20px;
-    font-weight: bold; }
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2) !important; }
 
 .about {
   width: 100%;
-  height: 100vh;
+  height: 93.5vh;
+  margin-top: 51.43px;
   background-color: orange; }
 
 .skills {
@@ -27,5 +21,7 @@
 
 .contact {
   width: 100%;
-  height: 40vh;
+  height: 100vh;
   background-color: green; }
+
+/*# sourceMappingURL=style.css.map */
