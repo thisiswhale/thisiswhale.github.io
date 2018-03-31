@@ -74,11 +74,30 @@ const Header = () => (
 );
 
 const About = () => {
-	return (<div className='about' id='about'>
-		<div className='container-fluid'>
-
+	return (
+		<div className='about' id='about'>
+			<div className='container-fluid'>
+				<div className='container'>
+					<div className='row'>
+						<h1 className='text-xs-center '>Bio</h1>
+						<div class='col-md-8 col-md-push-4'>
+              <div class='item-wrapper'>
+                <img class='img-fluid img-thumbnail center-block' src='#' alt='picuter'/>
+              </div>
+            </div>
+            <div class='col-md-4 col-md-pull-8 text-xs-center'>
+              <h5>Hello.</h5>
+              <hr/>
+              <p>I'm a Front-End Developer and Educator based in NYC. My goal is to make simple solutions to complex problems, with a focus on ease of use.
+              </p>
+              <hr/>
+            </div>
+					</div>
+					<h1 className='text-xs-center'>This is the work section</h1>
+				</div>
+			</div>
 		</div>
-	</div>)
+	);
 }
 
 const Skills = () => {
@@ -89,7 +108,7 @@ const Skills = () => {
 
 const Work = () => {
 	return (<div className='work' id='work'>
-		This is the work section
+		<h1>This is the work section</h1>
 	</div>)
 }
 

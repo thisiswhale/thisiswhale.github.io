@@ -14,6 +14,11 @@
   width: 100%;
   height: 100vh;
   background-color: orange; }
+  .about .row {
+    padding-top: 100px;
+    padding-bottom: 100px; }
+    .about .row h3.text-xs-center {
+      padding-top: 30px; }
 
 .skills {
   width: 100%;
