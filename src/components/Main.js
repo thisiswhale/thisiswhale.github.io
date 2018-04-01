@@ -49,11 +49,11 @@ const skillSet = [
 const Header = () => (
 	<div className='header fixed-top' id='header'>
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-		  <a className="navbar-brand" href="#">WILLIAM LEUNG</a>
+		  <a className="navbar-brand font-weight-bold" href="#">WILLIAM LEUNG</a>
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span className="navbar-toggler-icon"></span>
 		  </button>
-		  <div className="collapse navbar-collapse" id="navbarNav">
+		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
 		    <ul className="nav navbar-nav justify-content-end container">
 		      <li className="nav-item">
 		        <a className="nav-link" href="#about">Bio</a>
@@ -79,21 +79,22 @@ const About = () => {
 			<div className='container-fluid'>
 				<div className='container'>
 					<div className='row'>
-						<h1 className='text-xs-center '>Bio</h1>
-						<div class='col-md-8 col-md-push-4'>
-              <div class='item-wrapper'>
-                <img class='img-fluid img-thumbnail center-block' src='#' alt='picuter'/>
+						<div className='col-md-12'>
+							<h1 className='text-sm-center'>Bio</h1>
+						</div>
+						<div className='col-md-8 order-md-2'>
+              <div className='item-wrapper'>
+                <img className='img-fluid img-thumbnail mx-auto' src='http://lorempixel.com/g/400/400' alt='picuter'/>
               </div>
             </div>
-            <div class='col-md-4 col-md-pull-8 text-xs-center'>
+            <div className='col-md-4 order-md-1  text-sm-center'>
               <h5>Hello.</h5>
               <hr/>
-              <p>I'm a Front-End Developer and Educator based in NYC. My goal is to make simple solutions to complex problems, with a focus on ease of use.
+              <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
               </p>
               <hr/>
             </div>
 					</div>
-					<h1 className='text-xs-center'>This is the work section</h1>
 				</div>
 			</div>
 		</div>
