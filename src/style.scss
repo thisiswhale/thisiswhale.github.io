@@ -92,8 +92,8 @@
 		}
 	}
 
-	#about p,
-	#skills p {
+	.about p,
+	.skills p {
 		margin: 36px auto;
 		max-width: 400px;
 		line-height: 2;
@@ -103,6 +103,10 @@
 		width: 100%;
 		height: 100vh;
 		background-color: dodgerblue;
+		span{
+			font-size: 60px;
+			margin: auto;
+		}
 	}
 
 	.work {

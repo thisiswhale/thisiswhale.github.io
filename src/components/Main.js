@@ -82,7 +82,7 @@ const About = () => {
 						<div className='col-md-12'>
 							<h1 className='text-sm-center'>Bio</h1>
 						</div>
-						<div className='col-md-8 order-md-2'>
+						<div className='col-md-8 order-md-2 text-sm-center'>
               <div className='item-wrapper'>
                 <img className='img-fluid img-thumbnail mx-auto' src='http://lorempixel.com/g/400/400' alt='picuter'/>
               </div>
@@ -102,9 +102,61 @@ const About = () => {
 }
 
 const Skills = () => {
-	return (<div className='skills' id='skills'>
-		This is the Skill section
-	</div>)
+	return (
+		<div className='skills' id='skills'>
+			<div className='container-fluid'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12'>
+							<h1 className='text-sm-center'>TECHNOLOGY USED</h1>
+						</div>
+							<div className='col-md-6'>
+								<div className="card text-center">
+									<div className="card-header">FRONT-END</div>
+									<div className="card-body">
+										<span className="devicon-html5-plain"></span>
+										<span className="devicon-css3-plain"></span>
+										<span className="devicon-sass-original"></span>
+										<span className="devicon-javascript-plain"></span>
+										<span className="devicon-bootstrap-plain"></span>
+										<span className="devicon-jquery-plain"></span>
+										<span className="devicon-react-original-wordmark"></span>
+									</div>
+								</div>
+							</div>
+							<div className='col-md-6'>
+								<div className="card text-center">
+									<div className="card-header">BACK-END</div>
+									<div className="card-body">
+										<h4><span className="devicon-nodejs-plain"></span>Node.js</h4>
+										<span className="devicon-express-original"></span>
+										<span className="devicon-mysql-plain"></span>
+										<span className='devicon-sequelize-plain'></span>
+										<span className="devicon-mongodb-plain"></span>
+									</div>
+								</div>
+							</div>
+
+							<div className='col-md-12'>
+								<div className="card text-center">
+									<div className="card-header">OTHER</div>
+									<div className="card-body">
+										<span className="devicon-atom-original"></span>
+										<span className="devicon-babel-plain"></span>
+										<span className="devicon-git-plain"></span>
+										<span className="devicon-github-plain"></span>
+										<span className="devicon-bitbucket-plain"></span>
+										<span className="devicon-heroku-plain"></span>
+										<span className="devicon-webpack-plain"></span>
+										<span className="devicon-trello-plain"></span>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 const Work = () => {
