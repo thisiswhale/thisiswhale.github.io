@@ -1,6 +1,7 @@
 @media screen {
   * {
-    transition: 0.4s; }
+    transition: 0.4s;
+    font-family: 'Francois One', sans-serif; }
   body {
     position: relative;
     box-sizing: border-box;
@@ -43,7 +44,9 @@
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2) !important;
     height: 72px; }
     .header nav a.navbar-brand {
-      font-size: 32px; }
+      font-size: 32px;
+      font-family: 'Montserrat', sans-serif;
+      color: white; }
     .header nav div.collapse.navbar-collapse {
       font-size: 20px; }
   .about {
@@ -56,8 +59,7 @@
       height: 100vh; }
       .about .row h1 {
         padding-top: 30px; }
-  .about p,
-  .skills p {
+  .about p {
     margin: 36px auto;
     max-width: 400px;
     line-height: 2; }
@@ -65,9 +67,21 @@
     width: 100%;
     height: 100vh;
     background-color: dodgerblue; }
-    .skills span {
-      font-size: 60px;
-      margin: auto; }
+    .skills .card {
+      box-shadow: 5px 7px 4px 0 rgba(0, 0, 0, 0.4) !important;
+      background-color: rgba(245, 255, 245, 0.9); }
+      .skills .card .card-text {
+        line-height: 2; }
+      .skills .card .devicon {
+        display: inline-block;
+        margin-left: 5px;
+        margin-right: 5px; }
+        .skills .card .devicon i {
+          font-size: 40px;
+          margin: auto; }
+        .skills .card .devicon span {
+          font-size: 20px;
+          margin: 5px; }
   .work {
     width: 100%;
     height: 100vh;
@@ -95,8 +109,7 @@
     margin: 0 auto; }
   #bio h5 {
     margin: 0 auto 16px; }
-  #bio p,
-  #skills p {
+  #bio p {
     margin: 16px 0; }
   #bbco-proj .card-block hr {
     margin: 10px auto; }
@@ -109,9 +122,6 @@
     font-size: 14px; }
   ul.nav.navbar-nav.pull-sm-right.container {
     margin-right: 120px; }
-  #bio h5,
-  #skills h5 {
-    margin: 48px auto 36px; }
   #bio p,
   #skills p {
     margin: 24px auto; } }

@@ -49,7 +49,7 @@ const skillSet = [
 const Header = () => (
 	<div className='header fixed-top' id='header'>
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
-		  <a className="navbar-brand font-weight-bold" href="#">WILLIAM LEUNG</a>
+		  <a className="navbar-brand font-weight-bold">WILLIAM LEUNG</a>
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span className="navbar-toggler-icon"></span>
 		  </button>
@@ -110,48 +110,45 @@ const Skills = () => {
 						<div className='col-md-12'>
 							<h1 className='text-sm-center'>TECHNOLOGY USED</h1>
 						</div>
-							<div className='col-md-6'>
-								<div className="card text-center">
-									<div className="card-header">FRONT-END</div>
-									<div className="card-body">
-										<span className="devicon-html5-plain"></span>
-										<span className="devicon-css3-plain"></span>
-										<span className="devicon-sass-original"></span>
-										<span className="devicon-javascript-plain"></span>
-										<span className="devicon-bootstrap-plain"></span>
-										<span className="devicon-jquery-plain"></span>
-										<span className="devicon-react-original-wordmark"></span>
+						<div className='col-md-12'>
+							<div className="card">
+								  <div className="card-body">
+										<h5 className="card-title">FRONT-END</h5>
+										<p className="card-text">
+											<div className='devicon'><i className="devicon-html5-plain colored"></i><span>HTML</span></div>
+											<div className='devicon'><i className="devicon-css3-plain colored"></i><span>CSS</span></div>
+											<div className='devicon'><i className="devicon-sass-original colored"></i><span>Sass</span></div>
+											<div className='devicon'><i className="devicon-javascript-plain colored"></i><span>JavaScript</span></div>
+											<div className='devicon'><i className="devicon-bootstrap-plain colored"></i><span>Bootstrap</span></div>
+											<div className='devicon'><i className="devicon-jquery-plain colored"></i><span>jQuery</span></div>
+											<div className='devicon'><i className="devicon-react-original colored"></i><span>React</span></div>
+										</p>
 									</div>
-								</div>
-							</div>
-							<div className='col-md-6'>
-								<div className="card text-center">
-									<div className="card-header">BACK-END</div>
 									<div className="card-body">
-										<h4><span className="devicon-nodejs-plain"></span>Node.js</h4>
-										<span className="devicon-express-original"></span>
-										<span className="devicon-mysql-plain"></span>
-										<span className='devicon-sequelize-plain'></span>
-										<span className="devicon-mongodb-plain"></span>
+										<h5 className="card-title">BACK-END</h5>
+										<p className="card-text">
+											<div className='devicon'><i className="devicon-nodejs-plain colored"></i><span>Node.js</span></div>
+											<div className='devicon'><i className="devicon-express-original colored"></i><span>Express</span></div>
+											<div className='devicon'><i className="devicon-mysql-plain colored"></i><span>MySql</span></div>
+											<div className='devicon'><i className='devicon-sequelize-plain colored'></i><span>Sequalize</span></div>
+											<div className='devicon'><i className="devicon-mongodb-plain colored"></i><span>MongoDB</span></div>
+										</p>
 									</div>
-								</div>
-							</div>
-
-							<div className='col-md-12'>
-								<div className="card text-center">
-									<div className="card-header">OTHER</div>
 									<div className="card-body">
-										<span className="devicon-atom-original"></span>
-										<span className="devicon-babel-plain"></span>
-										<span className="devicon-git-plain"></span>
-										<span className="devicon-github-plain"></span>
-										<span className="devicon-bitbucket-plain"></span>
-										<span className="devicon-heroku-plain"></span>
-										<span className="devicon-webpack-plain"></span>
-										<span className="devicon-trello-plain"></span>
+										<h5 className="card-title">OTHERS</h5>
+										<p className="card-text">
+											<div className='devicon'><i className="devicon-atom-original colored"></i><span>Atom</span></div>
+											<div className='devicon'><i className="devicon-babel-plain colored"></i><span>Babel</span></div>
+											<div className='devicon'><i className="devicon-webpack-plain colored"></i><span>Webpack</span></div>
+											<div className='devicon'><i className="devicon-git-plain colored"></i><span>Git</span></div>
+											<div className='devicon'><i className="devicon-github-plain colored"></i><span>GitHub</span></div>
+											<div className='devicon'><i className="devicon-bitbucket-plain colored"></i><span>Bitbucket</span></div>
+											<div className='devicon'><i className="devicon-heroku-plain colored"></i><span>Heroku</span></div>
+											<div className='devicon'><i className="devicon-trello-plain colored"></i><span>Trello</span></div>
+										</p>
 									</div>
-								</div>
 							</div>
+						</div>
 					</div>
 				</div>
 			</div>
