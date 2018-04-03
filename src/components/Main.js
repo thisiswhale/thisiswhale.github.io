@@ -163,9 +163,27 @@ const Work = () => {
 }
 
 const Footer = () => {
-	return (<div className='contact' id='contact'>
-		This is the contact section
-	</div>)
+	return (
+		<div className='contact' id='contact'>
+			<div className='container-fluid'>
+				<div className='container'>
+					<div className='row'>
+						<div className='col-md-12'>
+							<h4 className='text-sm-center'>Contact</h4>
+						</div>
+						<div className='col-md-12'>
+							<p className='text-sm-center'>If you have any projects that you'd like help with, I'd love to work with you. </p>
+						</div>
+						<div className='col-md-12 text-sm-center'>
+							<a href='https://github.com/thisiswhale' target='_blank'><i className="fab fa-github fa-2x"></i></a>
+							<a href="mailto:agursky.js@gmail.com" target="_top"><i className="fas fa-envelope fa-2x"></i></a>
+							<a href='https://www.linkedin.com/in/william.kou.leung' target='_blank'><i className="fab fa-linkedin fa-2x"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	)
 }
 export default class Main extends Component {
 
