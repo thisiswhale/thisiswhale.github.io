@@ -22,12 +22,12 @@ const work = [
 		description: 'A team composition suggestor for Overwatch, a popular video game by Blizzard, using user-based data algorithm. Users can login and submit their recent game data through friendly UI into a database. Users can query character choices to obtain suggested strategic team compositions to help user’s winnings.',
  		demo: 'https://dry-journey-45708.herokuapp.com/',
 		github: 'https://github.com/thisiswhale/NerfThis',
-		skills: ['HTML' , 'Bootstrap' , 'jQuery' , 'mySql' , 'Node.js' , 'Bcrypt.js' , 'Express']
+		skills: ['HTML' , 'Bootstrap' , 'jQuery' , 'mySql' , 'Node.js' , 'Express']
 	},
 	{
 		title: 'Emviews',
 		image: 'https://user-images.githubusercontent.com/16066443/27000253-700ba974-4d62-11e7-864a-01564002bd8d.JPG',
-		description: 'A one stop shop product search app that aggregates product reviews into a single, trustworthy source display everything you would need to make an informed purchase decision on one browser page. Dynamically list the items, provides descriptio, videos, and reviews posted by recent buyers.',
+		description: 'A one stop shop product search app that aggregates product reviews into a single, trustworthy source display everything you would need to make an informed purchase decision on one browser page.',
 		demo: 'https://emviews.github.io/EmViews/',
 		github: 'https://github.com/EmViews/EmViews',
 		skills: ['HTML', 'Bootstrap', 'jQuery', 'Ajax']
@@ -75,8 +75,7 @@ const Header = () => (
 
 const About = () => {
 	return (
-		<div className='about' id='about'>
-			<div className='container-fluid'>
+			<div className='container-fluid about' id='about'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12'>
@@ -97,14 +96,12 @@ const About = () => {
 					</div>
 				</div>
 			</div>
-		</div>
 	);
 }
 
 const Skills = () => {
 	return (
-		<div className='skills' id='skills'>
-			<div className='container-fluid'>
+			<div className='container-fluid skills' id='skills'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12'>
@@ -152,20 +149,96 @@ const Skills = () => {
 					</div>
 				</div>
 			</div>
-		</div>
 	);
 }
 
 const Work = () => {
-	return (<div className='work' id='work'>
-		<h1>This is the work section</h1>
-	</div>)
+	return (
+	<div className='container-fluid work' id='work'>
+			<div className='container'>
+				<div className='row'>
+					<div className='col-md-12'>
+						<h1 className='text-sm-center'>PROJECTS</h1>
+					</div>
+          <div className='card-wrapper col-md-6 col-lg-4'>
+              <div className='card'  id='fanschool-proj'>
+                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
+                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
+                  <div className='card-block text-sm-center'>
+                  	<h4 className="card-title">FANSCHOOL</h4>
+                  	<hr/>
+                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
+                  	<hr/>
+                		<div className='small-text'>
+                			<p className="card-text"><small>HTML/CSS/React</small></p>
+                		</div>
+
+										<a href="#" className="card-link demo-link ">Demo</a>
+										<a href="#" className="card-link code-link inlineRight">Code</a>
+									</div>
+              </div>
+        	</div>
+					<div className='card-wrapper col-md-6 col-lg-4'>
+              <div className='card'  id='fanschool-proj'>
+                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
+                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
+                  <div className='card-block text-sm-center'>
+                  	<h4 className="card-title">FANSCHOOL</h4>
+                  	<hr/>
+                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
+                  	<hr/>
+                		<div className='small-text'>
+                			<p className="card-text"><small>HTML/CSS/React</small></p>
+                		</div>
+
+										<a href="#" className="card-link demo-link ">Demo</a>
+										<a href="#" className="card-link code-link inlineRight">Code</a>
+									</div>
+              </div>
+        	</div>          <div className='card-wrapper col-md-6 col-lg-4'>
+					              <div className='card'  id='fanschool-proj'>
+					                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
+					                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
+					                  <div className='card-block text-sm-center'>
+					                  	<h4 className="card-title">FANSCHOOL</h4>
+					                  	<hr/>
+					                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
+					                  	<hr/>
+					                		<div className='small-text'>
+					                			<p className="card-text"><small>HTML/CSS/React</small></p>
+					                		</div>
+
+															<a href="#" className="card-link demo-link ">Demo</a>
+															<a href="#" className="card-link code-link inlineRight">Code</a>
+														</div>
+					              </div>
+					        	</div>          <div className='card-wrapper col-md-6 col-lg-4'>
+										              <div className='card'  id='fanschool-proj'>
+										                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
+										                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
+										                  <div className='card-block text-sm-center'>
+										                  	<h4 className="card-title">FANSCHOOL</h4>
+										                  	<hr/>
+										                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
+										                  	<hr/>
+										                		<div className='small-text'>
+										                			<p className="card-text"><small>HTML/CSS/React</small></p>
+										                		</div>
+
+																				<a href="#" className="card-link demo-link ">Demo</a>
+																				<a href="#" className="card-link code-link inlineRight">Code</a>
+																			</div>
+										              </div>
+										        	</div>
+				</div>
+			</div>
+		</div>
+	);
 }
 
 const Footer = () => {
 	return (
-		<div className='contact' id='contact'>
-			<div className='container-fluid'>
+			<div className='container-fluid contact' id='contact'>
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12'>
@@ -182,7 +255,6 @@ const Footer = () => {
 					</div>
 				</div>
 			</div>
-		</div>
 	)
 }
 export default class Main extends Component {
