@@ -20,7 +20,27 @@ const work = [
 		description: 'Personal. Players follow a series of repeating pattern of tones and light based on a classic, retro memory game in the 1980s.',
 		demo: 'https://thisiswhale.github.io/Simon/',
 		github: 'https://github.com/thisiswhale/Game-of-Life',
-		skills: ['HTML','Sass','JavaScript','Animate.css']
+		skills: ['HTML','Sass','JavaScript']
+	},
+	{
+		id:'proj-recipe-box',
+		title: "Recipe Box",
+		image: 'https://user-images.githubusercontent.com/16066443/37027268-b78b327c-20e5-11e8-8b70-654c056624fd.gif',
+		alt:'recipe image',
+		description: 'Personal. Recipes able to save into your LocalStorage.',
+		demo: 'https://thisiswhale.github.io/Recipe-Box/',
+		github: 'https://github.com/thisiswhale/Recipe-Box',
+		skills: ['HTML','Sass','Bootstrap','Node.js','React.js']
+	},
+	{
+		id:'proj-markdown-previewer',
+		title: "Markdown Previewer",
+		image: 'https://user-images.githubusercontent.com/16066443/36639573-32a8ae04-19c4-11e8-926b-4bbd83f53dc3.JPG',
+		alt:'markdown image',
+		description: 'Personal. Real-time lightweight markup language converter for your needs.',
+		demo: 'https://thisiswhale.github.io/Markdown-Previewer/',
+		github: 'https://github.com/thisiswhale/Markdown-Previewer',
+		skills: ['HTML','Sass','Bootstrap','React.js']
 	},
 	{
 		id:'proj-tic-tac-toe',
@@ -61,6 +81,16 @@ const work = [
 		demo: 'https://thisiswhale.github.io/WhosThatPokemon/',
 		github: 'https://github.com/thisiswhale/WhosThatPokemon',
 		skills: ['HTML', 'CSS', 'JavaScript']
+	},
+	{
+		id:'proj-pomodoro',
+		title: "Pomodoro",
+		image: 'https://user-images.githubusercontent.com/16066443/38352341-b6aaea0c-3867-11e8-9e22-bde89bb14721.JPG',
+		alt:'pomodoro image',
+		description: 'Personal. A simple timer that keeps productivity up.',
+		demo: 'https://thisiswhale.github.io/Pomodoro-Timer/',
+		github: 'https://github.com/thisiswhale/Pomodoro-Timer',
+		skills: ['HTML', 'Sass', 'JavaScript']
 	}
 ];
 
@@ -80,9 +110,11 @@ const Header = () => (
 	<div className='header fixed-top' id='header'>
 		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
 		  <a className="navbar-brand font-weight-bold">WILLIAM LEUNG</a>
+
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span className="navbar-toggler-icon"></span>
 		  </button>
+			
 		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
 		    <ul className="nav navbar-nav justify-content-end container">
 		      <li className="nav-item">
@@ -119,7 +151,7 @@ const About = () => {
             <div className='col-md-4 order-md-1  text-sm-center'>
               <h5>Hello.</h5>
               <hr/>
-              <p>simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+              <p>My name is Will. I'm a Full Stack Developer based in Los Angeles, CA. I enjoy more on learning Front-end technologies. I have a niche in computers and passionatate to learning new technologies.
               </p>
               <hr/>
             </div>
@@ -230,7 +262,7 @@ const Footer = () => {
 							<h4 className='text-sm-center'>Contact</h4>
 						</div>
 						<div className='col-md-12'>
-							<p className='text-sm-center'>If you have any projects that you'd like help with, I'd love to work with you. </p>
+							<p className='text-sm-center'>I am avaialble to website design and development work. If you have any projects that you'd like help with, I'd love to work with you. </p>
 						</div>
 						<div className='col-md-12 text-sm-center'>
 							<a href='https://github.com/thisiswhale' target='_blank'><i className="fab fa-github fa-2x"></i></a>

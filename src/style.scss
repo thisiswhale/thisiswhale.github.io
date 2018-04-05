@@ -52,13 +52,6 @@
 		border: 8px solid white;
 	}
 
-	table.table {
-		box-shadow: 0 0 8px -2px rgba(0, 0, 0, 0.5);
-		text-align: center;
-		width: 100%;
-		max-width: 450px;
-		margin: auto;
-	}
 // /**********NAVBAR************************************************************/
 	.header {
 		nav {
@@ -87,7 +80,7 @@
 			padding-bottom: 100px;
 			height: 100vh;
 
-			h1 {
+			h5 {
 				padding-top: 30px;
 			}
 		}
@@ -252,9 +245,6 @@
 		margin: 16px 0;
 	}
 
-	#bbco-proj .card-block hr {
-		margin: 10px auto;
-	}
 
 	table.table {
 		margin: initial;
