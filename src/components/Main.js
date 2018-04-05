@@ -108,13 +108,13 @@ const skillSet = [
 
 const Header = () => (
 	<div className='header fixed-top' id='header'>
-		<nav className="navbar navbar-expand-sm navbar-dark bg-dark">
+		<nav className="navbar navbar-expand-sm navbar-dark">
 		  <a className="navbar-brand font-weight-bold">WILLIAM LEUNG</a>
 
 		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    <span className="navbar-toggler-icon"></span>
 		  </button>
-			
+
 		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
 		    <ul className="nav navbar-nav justify-content-end container">
 		      <li className="nav-item">
@@ -259,15 +259,15 @@ const Footer = () => {
 				<div className='container'>
 					<div className='row'>
 						<div className='col-md-12'>
-							<h4 className='text-sm-center'>Contact</h4>
+							<h4 className='text-sm-center contact-title'>Contact</h4>
 						</div>
 						<div className='col-md-12'>
 							<p className='text-sm-center'>I am avaialble to website design and development work. If you have any projects that you'd like help with, I'd love to work with you. </p>
 						</div>
-						<div className='col-md-12 text-sm-center'>
-							<a href='https://github.com/thisiswhale' target='_blank'><i className="fab fa-github fa-2x"></i></a>
-							<a href="mailto:agursky.js@gmail.com" target="_top"><i className="fas fa-envelope fa-2x"></i></a>
-							<a href='https://www.linkedin.com/in/william.kou.leung' target='_blank'><i className="fab fa-linkedin fa-2x"></i></a>
+						<div className='col-md-12 text-sm-center '>
+							<a href='https://github.com/thisiswhale' target='_blank'><i className="fab fa-github fa-2x icon-github "></i></a>
+							<a href="mailto:william.kou.leung@gmail.com" target="_top"><i className="fas fa-envelope fa-2x icon-envelope"></i></a>
+							<a href='https://www.linkedin.com/in/william-kou-leung/' target='_blank'><i className="fab fa-linkedin fa-2x icon-linkedin"></i></a>
 						</div>
 					</div>
 				</div>
