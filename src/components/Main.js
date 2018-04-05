@@ -1,36 +1,66 @@
 import React, {Component} from 'react';
+
 const work = [
+
 	{
-		title: "Simon Game",
-		image: 'https://user-images.githubusercontent.com/16066443/26999981-f8583926-4d5a-11e7-8a9f-c6e6c016b184.PNG',
-		description: 'A classic memory game with a series of tones and lights and the player will repeat the pattern sequence',
-		demo: 'https://thisiswhale.github.io/Simon/',
-		github: 'https://github.com/thisiswhale/Game-of-Life',
-		skills: ['HTML','Sass','JavaScript','Animate.css']
-	},
-	{
+		id:'proj-game-of-life',
 		title: "Conway's Game of Life",
-		image: 'https://user-images.githubusercontent.com/16066443/26999981-f8583926-4d5a-11e7-8a9f-c6e6c016b184.PNG',
-		description: 'Something here',
+		image: 'https://user-images.githubusercontent.com/16066443/38351505-9dae1f54-3864-11e8-8e42-a4f4a1ab7390.gif',
+		alt:'game of life image',
+		description: 'Personal. A cellular automation where users can create and observe the life cycle interactions between cells.',
 		demo: 'https://thisiswhale.github.io/Game-of-Life/',
 		github: 'https://github.com/thisiswhale/Game-of-Life',
 		skills: ['HTML','Sass','Node.js','React.js']
 	},
 	{
-		title: 'Nerf This!',
-		image: 'https://user-images.githubusercontent.com/16066443/26999981-f8583926-4d5a-11e7-8a9f-c6e6c016b184.PNG',
-		description: 'A team composition suggestor for Overwatch, a popular video game by Blizzard, using user-based data algorithm. Users can login and submit their recent game data through friendly UI into a database. Users can query character choices to obtain suggested strategic team compositions to help user’s winnings.',
- 		demo: 'https://dry-journey-45708.herokuapp.com/',
-		github: 'https://github.com/thisiswhale/NerfThis',
-		skills: ['HTML' , 'Bootstrap' , 'jQuery' , 'mySql' , 'Node.js' , 'Express']
+		id:'proj-simon-game',
+		title: "Simon Game",
+		image: 'https://user-images.githubusercontent.com/16066443/38351167-39d2069a-3863-11e8-837f-ec880389e8c7.JPG',
+		alt:'simon game image',
+		description: 'Personal. Players follow a series of repeating pattern of tones and light based on a classic, retro memory game in the 1980s.',
+		demo: 'https://thisiswhale.github.io/Simon/',
+		github: 'https://github.com/thisiswhale/Game-of-Life',
+		skills: ['HTML','Sass','JavaScript','Animate.css']
 	},
 	{
+		id:'proj-tic-tac-toe',
+		title: "Tic Tac Toe",
+		alt:'tictactoe',
+		image: 'https://user-images.githubusercontent.com/16066443/36402185-64a66568-1591-11e8-9f20-92698b3f88b2.gif',
+		description: 'Personal. Play against the ruthless AI with your favorite memes.',
+		demo: 'https://thisiswhale.github.io/Tic-Tac-Toe/',
+		github: 'https://github.com/thisiswhale/Tic-Tac-Toe',
+		skills: ['HTML','Sass','JavaScript']
+	},
+	{
+		id:'proj-nerf-this',
+		title: 'Nerf This!',
+		alt:'nerf this image',
+		image: 'https://user-images.githubusercontent.com/16066443/38351027-b5fadb44-3862-11e8-8114-b172fb6e12db.JPG',
+		description: 'Collab.	A strategy tool app for a popular video game that uses user-based data algorithm to find the best team composition for your plays.',
+ 		demo: 'https://dry-journey-45708.herokuapp.com/',
+		github: 'https://github.com/thisiswhale/NerfThis',
+		skills: ['HTML' , 'Bootstrap' , 'Node.js' , 'Express', 'MySql']
+	},
+	{
+		id:'proj-emviews',
 		title: 'Emviews',
-		image: 'https://user-images.githubusercontent.com/16066443/27000253-700ba974-4d62-11e7-864a-01564002bd8d.JPG',
-		description: 'A one stop shop product search app that aggregates product reviews into a single, trustworthy source display everything you would need to make an informed purchase decision on one browser page.',
+		alt:'Emviews image',
+		image: 'https://user-images.githubusercontent.com/16066443/38350962-5f47b006-3862-11e8-9473-480603b5b0aa.jpg',
+		description: 'Collab. One-stop shop product search app that displays everything needed to make an informed purchase decision under one browser page.',
 		demo: 'https://emviews.github.io/EmViews/',
 		github: 'https://github.com/EmViews/EmViews',
 		skills: ['HTML', 'Bootstrap', 'jQuery', 'Ajax']
+	},
+	{
+		id:'proj-pokemon-hangman',
+		title: "Who's That Pokemon",
+		image: 'https://user-images.githubusercontent.com/16066443/27000477-f9b45b6c-4d67-11e7-9072-01046fe262a3.JPG',
+		alt:'pokemon hangman image',
+		description: 'Personal. A simple Hangman game with that nostalgia Pokemon feels. It got the Pokemon fonts, it got the Pokemon crys, and it got that Pokemon Theme. Gotta Guess Them ALL!!',
+		demo: 'https://thisiswhale.github.io/WhosThatPokemon/',
+		github: 'https://github.com/thisiswhale/WhosThatPokemon',
+		skills: ['HTML', 'CSS', 'JavaScript']
 	}
 ];
 
@@ -160,76 +190,31 @@ const Work = () => {
 					<div className='col-md-12'>
 						<h1 className='text-sm-center'>PROJECTS</h1>
 					</div>
-          <div className='card-wrapper col-md-6 col-lg-4'>
-              <div className='card'  id='fanschool-proj'>
-                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
-                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
-                  <div className='card-block text-sm-center'>
-                  	<h4 className="card-title">FANSCHOOL</h4>
-                  	<hr/>
-                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
-                  	<hr/>
-                		<div className='small-text'>
-                			<p className="card-text"><small>HTML/CSS/React</small></p>
-                		</div>
-
-										<a href="#" className="card-link demo-link ">Demo</a>
-										<a href="#" className="card-link code-link inlineRight">Code</a>
-									</div>
-              </div>
-        	</div>
-					<div className='card-wrapper col-md-6 col-lg-4'>
-              <div className='card'  id='fanschool-proj'>
-                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
-                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
-                  <div className='card-block text-sm-center'>
-                  	<h4 className="card-title">FANSCHOOL</h4>
-                  	<hr/>
-                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
-                  	<hr/>
-                		<div className='small-text'>
-                			<p className="card-text"><small>HTML/CSS/React</small></p>
-                		</div>
-
-										<a href="#" className="card-link demo-link ">Demo</a>
-										<a href="#" className="card-link code-link inlineRight">Code</a>
-									</div>
-              </div>
-        	</div>          <div className='card-wrapper col-md-6 col-lg-4'>
-					              <div className='card'  id='fanschool-proj'>
-					                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
-					                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
-					                  <div className='card-block text-sm-center'>
-					                  	<h4 className="card-title">FANSCHOOL</h4>
-					                  	<hr/>
-					                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
-					                  	<hr/>
-					                		<div className='small-text'>
-					                			<p className="card-text"><small>HTML/CSS/React</small></p>
-					                		</div>
-
-															<a href="#" className="card-link demo-link ">Demo</a>
-															<a href="#" className="card-link code-link inlineRight">Code</a>
-														</div>
-					              </div>
-					        	</div>          <div className='card-wrapper col-md-6 col-lg-4'>
-										              <div className='card'  id='fanschool-proj'>
-										                  {/* <img className='img-fluid hidden-sm-down'src='img/fanschool.png' alt='Fanschool site screenshot'/>
-										                  <img className='img-fluid hidden-md-up' src='img/SM_fanschool.png' alt='Fanschool site screenshot'/> */}
-										                  <div className='card-block text-sm-center'>
-										                  	<h4 className="card-title">FANSCHOOL</h4>
-										                  	<hr/>
-										                  	<p className="card-text">Client Work. Fanschool uses a fantasy sports league model to make social studies and current events more engaging for students.</p>
-										                  	<hr/>
-										                		<div className='small-text'>
-										                			<p className="card-text"><small>HTML/CSS/React</small></p>
-										                		</div>
-
-																				<a href="#" className="card-link demo-link ">Demo</a>
-																				<a href="#" className="card-link code-link inlineRight">Code</a>
-																			</div>
-										              </div>
-										        	</div>
+					{
+						work.map( project =>{
+							let tech = project.skills.join(' / ');
+							return(
+								<div className='card-wrapper col-md-6 col-lg-4'>
+										<div className='card'  id={project.id}>
+		                  <img className='img-fluid' src={project.image} alt={project.alt}/>
+												<div className='card-block text-sm-center'>
+													<h4 className="card-title">{project.title}</h4>
+													<hr/>
+													<p className="card-text">{project.description}</p>
+													<hr/>
+													<div className='small-text'>
+														<p className="card-text"><small>{tech}</small></p>
+													</div>
+													<div className='footer-text'>
+														<a href={project.demo} className="card-link demo-link ">Demo</a>
+														<a href={project.github} className="card-link code-link inlineRight">Code</a>
+													</div>
+												</div>
+										</div>
+								</div>
+							)
+						})
+					}
 				</div>
 			</div>
 		</div>
