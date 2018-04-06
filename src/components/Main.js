@@ -87,7 +87,7 @@ const work = [
 		title: "Pomodoro",
 		image: 'https://user-images.githubusercontent.com/16066443/38352341-b6aaea0c-3867-11e8-9e22-bde89bb14721.JPG',
 		alt:'pomodoro image',
-		description: 'Personal. A simple timer that keeps productivity up.',
+		description: 'Personal. A simple timer that aids your productivity up.',
 		demo: 'https://thisiswhale.github.io/Pomodoro-Timer/',
 		github: 'https://github.com/thisiswhale/Pomodoro-Timer',
 		skills: ['HTML', 'Sass', 'JavaScript']
@@ -110,11 +110,9 @@ const Header = () => (
 	<div className='header fixed-top' id='header'>
 		<nav className="navbar navbar-expand-sm navbar-dark">
 		  <a className="navbar-brand font-weight-bold">WILLIAM LEUNG</a>
-
-		  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span className="navbar-toggler-icon"></span>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
 		  </button>
-
 		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
 		    <ul className="nav navbar-nav justify-content-end container">
 		      <li className="nav-item">
@@ -145,7 +143,7 @@ const About = () => {
 						</div>
 						<div className='col-md-8 order-md-2 text-sm-center'>
               <div className='item-wrapper'>
-                <img className='img-fluid img-thumbnail mx-auto' src='http://lorempixel.com/g/400/400' alt='picuter'/>
+                <img className='img-fluid img-thumbnail mx-auto' src='http://via.placeholder.com/400x400' alt='picuter'/>
               </div>
             </div>
             <div className='col-md-4 order-md-1  text-sm-center'>

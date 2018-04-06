@@ -1,236 +1,273 @@
-$header-background: #223843 ;
-$bio-background: #ffdf64 ;
+$header-background: #223843;
+$bio-background: #ffdf64;
 $skills-background: #db504a;
 $project-background: #afc97e;
 $contact-background: #d4e6b5;
 
-$github-color:#d3102a;
+$github-color: #d3102a;
 $envelope-color: #3993dd;
 $linkedin-color: #f9a03f;
 
-@media screen {
-	* {
-		transition: 0.4s;
-		font-family: 'Francois One', sans-serif;
-	}
+* {
+	transition: 0.4s;
+	font-family: 'Francois One', sans-serif;
+}
 
-	body {
-		position: relative;
-		box-sizing: border-box;
+body {
+	position: relative;
+	box-sizing: border-box;
+}
+
+.row {
+	padding: 60px 0 40px;
+	width: auto;
+}
+
+h1, h2 {
+	padding-bottom: 6px;
+	margin-bottom: 36px;
+	font-weight: bolder;
+	letter-spacing: 0;
+}
+
+[class*='col-'] {
+	padding: 0;
+}
+
+.item-wrapper {
+	display: inline-block;
+	margin: 24px auto;
+}
+
+p {
+	font-size: 14px;
+}
+
+.img-thumbnail {
+	padding: 0;
+	border: 8px solid white;
+}
+// /**********NAVBAR************************************************************/
+.header {
+	nav {
+		-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		height: 72px;
+		background-color: $header-background;
+		padding: 0;
+		margin-bottom: 0;
+		//Brand LOGO
+		a.navbar-brand {
+			font-family: 'Montserrat', sans-serif;
+			color: $contact-background;
+		}
+		// Menu navbar
+		div.collapse.navbar-collapse {
+			font-size: 20px;
+		}
+		button{
+		border: none;
+		margin-right: 10px;
+		}
+		// when you click collapse icon, does dropdown animation
+		div.collapsing {
+			transition: height 0.02s linear;
+		}
+		//dropdown the menu
+		div.collapse.navbar-collapse.show {
+			transition: 0s;
+			font-size: 16px;
+
+			.nav.navbar-nav{
+				margin-top: 17px;
+				padding-right: 0;
+			}
+
+			.navbar-nav .nav-item {
+				margin: 0;
+				padding-left:20px;
+				border-bottom: 1px solid $header-background;
+				background-color: $project-background;
+
+				a.nav-link{
+					color: $header-background;
+				}
+			}
+		}
+
+
+
 	}
+}
+/**********ABOUT***************************************************************/
+.about {
+	background-color: $bio-background;
 
 	.row {
-		padding: 60px 0 40px;
-		width: auto;
-	}
+		padding-top: 100px;
+		padding-bottom: 100px;
 
-	h1, h2 {
-		padding-bottom: 6px;
-		margin-bottom: 36px;
-		font-weight: bolder;
-		letter-spacing: 0;
-	}
+		h5 {
+			padding-top: 30px;
+		}
 
-	[class*='col-'] {
-		padding: 0;
-	}
-
-	.item-wrapper {
-		display: inline-block;
-		margin: 24px auto;
-	}
-
-	p {
-		font-size: 14px;
-	}
-
-	.img-thumbnail {
-		padding: 0;
-		border: 8px solid white;
-	}
-
-// /**********NAVBAR************************************************************/
-	.header {
-		nav {
-			-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			height: 72px;
-			background-color: $header-background;
-			//Brand LOGO
-			a.navbar-brand {
-				font-size: 32px;
-				font-family: 'Montserrat', sans-serif;
-				color: #d4e6b5;
-			}
-			// Menu navbar
-			div.collapse.navbar-collapse {
-				font-size: 20px;
-			}
-			.navbar-nav{
-				color: #d4e6b5;
-			}
+		p {
+			margin: 36px auto;
+			max-width: 400px;
+			line-height: 2;
+			font-size: 19px;
 		}
 	}
-/**********ABOUT***************************************************************/
-	.about {
-		background-color: $bio-background;
+}
 
-		.row {
-			padding-top: 100px;
-			padding-bottom: 100px;
-			height: 100vh;
-
-			h5 {
-				padding-top: 30px;
-			}
-		}
-	}
-
-	.about p{
-		margin: 36px auto;
-		max-width: 400px;
-		line-height: 2;
-		font-size: 19px;
-	}
 /**********SKILLS***************************************************************/
-	.skills {
-		background-color: $skills-background;
+.skills {
+	background-color: $skills-background;
 
-		.card{
-			-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			box-shadow: 5px 7px 4px 0 hsla(0, 0%, 0%, 0.4) !important;
-			background-color: rgba(245, 255, 245, 0.90);
+	.card {
+		-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		box-shadow: 5px 7px 4px 0 hsla(0, 0%, 0%, 0.4) !important;
+		background-color: rgba(245, 255, 245, 0.90);
 
-			.card-text{
-				line-height: 2;
-			}
-
-			.devicon{
-				display:inline-block;
-				margin:5px;
-
-				i{
-					font-size: 40px;
-					margin: auto;
-				}
-
-				span{
-					font-size: 20px;
-					margin: 5px;
-				}
-			}
+		.card-text {
+			line-height: 2;
 		}
 
+		.devicon {
+			display: inline-block;
+			margin: 5px;
 
-	}
-/**********PROJECTS************************************************************/
-	.work {
-		background-color: $project-background;
-
-		.card {
-			background-color: #f7f7f7;
-			//background-color: aliceblue !important;
-			padding: 10px;
-			height: 290px;
-			border: none;
-			border-radius: 0;
-			-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
-			box-shadow: 5px 7px 4px 0 hsla(0, 0%, 0%, 0.4) !important;
-		}
-
-		.card img {
-		opacity: 1;
-		height: inherit;
-		}
-
-		.card-wrapper:hover .card-block {
-		opacity: 1;
-		}
-
-		.card-wrapper .card-block {
-			color: #2b2b2b;
-			position: absolute;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: inherit;
-			background-color: #f7f7f7;
-			opacity: 0;
-			padding: 0 10px;
-			padding-top: 11%;
-
-			hr {
-				margin: 10px auto;
-			}
-
-			.card-title {
-				color: #FF5722;
-				margin-bottom: 1rem;
-				font-size: 22px;
-			}
-			.small-text {
-				margin-bottom: 10px;
-				position: absolute;
-				width: 100%;
-				left: 0;
-				bottom: 14%;
-				small {
-					color: #ff9800;
-					font-weight: bold;
-					letter-spacing: 2.6px;
-				}
-
-			}
-			.footer-text{
-				position: absolute;
-				width: 100%;
-				left: 0;
-				bottom: 6%;
-			}
-			a.code-link {
-				margin-left: 69%;
-			}
-		}
-	}
-
-/**********FOOTER**************************************************************/
-	.contact {
-		background-color: $contact-background;
-		.row {
-			padding-top: 50px;
-			.contact-title {
-				padding-bottom: 8px;
-			}
 			i {
-				height: 56px;
-				width: 58px;
-				margin-right: 16px;
-				margin-left: 16px;
-				padding:12px;
-				border: 1px solid;
-				border-radius: 50%;
-				color: white;
+				font-size: 40px;
+				margin: auto;
 			}
-			i.icon-github{
-				border-color: $github-color;
-				background-color: $github-color;
-			}
-			i.icon-envelope{
-				border-color: $envelope-color;
-				background-color: $envelope-color;
-			}
-			i.icon-linkedin{
-				border-color: $linkedin-color;
-				background-color: $linkedin-color;
+
+			span {
+				font-size: 20px;
+				margin: 5px;
 			}
 		}
 	}
 }
+/**********PROJECTS************************************************************/
+.work {
+	background-color: $project-background;
+
+	.card {
+		background-color: #f7f7f7;
+		//background-color: aliceblue !important;
+		padding: 10px;
+		height: 290px;
+		border: none;
+		border-radius: 0;
+		-webkit-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		-moz-box-shadow: 0 3px 5px 0 hsla(0, 0%, 0%, 0.2) !important;
+		box-shadow: 5px 7px 4px 0 hsla(0, 0%, 0%, 0.4) !important;
+	}
+
+	.card img {
+		opacity: 1;
+		height: 100%;
+	}
+
+	.card-wrapper:hover .card-block {
+		opacity: 1;
+	}
+
+	.card-wrapper .card-block {
+		color: #2b2b2b;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: inherit;
+		background-color: #f7f7f7;
+		opacity: 0;
+		padding: 11% 10px 0;
+
+		hr {
+			margin: 10px auto;
+		}
+
+		.card-title {
+			color: #FF5722;
+			margin-bottom: 1rem;
+			font-size: 22px;
+		}
+
+		.small-text {
+			margin-bottom: 10px;
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: 14%;
+
+			small {
+				color: #ff9800;
+				font-weight: bold;
+				letter-spacing: 2.6px;
+			}
+		}
+
+		.footer-text {
+			position: absolute;
+			width: 100%;
+			left: 0;
+			bottom: 6%;
+		}
+
+		a.code-link {
+			margin-left: 69%;
+		}
+	}
+}
+/**********FOOTER**************************************************************/
+.contact {
+	background-color: $contact-background;
+
+	.row {
+		padding-top: 50px;
+
+		.contact-title {
+			padding-bottom: 8px;
+		}
+
+		i {
+			height: 56px;
+			width: 58px;
+			margin-right: 16px;
+			margin-left: 16px;
+			padding: 12px;
+			border: 1px solid;
+			border-radius: 50%;
+			color: white;
+		}
+
+		i.icon-github {
+			border-color: $github-color;
+			background-color: $github-color;
+		}
+
+		i.icon-envelope {
+			border-color: $envelope-color;
+			background-color: $envelope-color;
+		}
+
+		i.icon-linkedin {
+			border-color: $linkedin-color;
+			background-color: $linkedin-color;
+		}
+	}
+}
 /**********SMALL&UP************************************************************/
-@media (min-width: 544px) {
+@media (min-width: 320px) {
+	a.navbar-brand {
+		font-size: 24px;
+		margin-left: 10px;
+	}
+
 	.card {
 		margin-bottom: 12px;
 	}
@@ -246,26 +283,54 @@ $linkedin-color: #f9a03f;
 	.row {
 		padding: 100px 0;
 	}
+
+  h1 {
+    margin-bottom: 0;
+		text-align: center;
+  }
+
+  .about .row{
+		p {
+			text-align: center;
+		}
+		h5 {
+  		padding-top: 15px;
+			text-align: center;
+		}
+  }
+
+	.work {
+		.card{
+			text-align: center;
+		}
+		.small-text {
+			text-align: center;
+			padding: 15px;
+		}
+
+	}
+}
+@media (min-width: 576px) {
+	.work {
+		p{
+			font-size: 16px;
+		}
+	}
+
 }
 /**********MEDIUM&UP************************************************************/
 @media (min-width: 768px) {
+	a.navbar-brand {
+		margin-left: 25px;
+	}
 	.item-wrapper {
 		width: 85%;
 		margin: 0 auto;
 	}
 
-	#bio h5 {
-		margin: 0 auto 16px;
-	}
-
-	#bio p{
-		margin: 16px 0;
-	}
-
 }
 /**********LARGE&UP************************************************************/
 @media (min-width: 992px) {
-
 	ul.nav.navbar-nav.pull-sm-right.container {
 		margin-right: 120px;
 	}
@@ -277,6 +342,9 @@ $linkedin-color: #f9a03f;
 }
 /**********EXTRA*LARGE&UP************************************************************/
 @media (min-width: 1200px) {
+	a.navbar-brand {
+		font-size: 32px;
+	}
 
 	.card-wrapper .card-block {
 		padding-top: 16%;
@@ -288,9 +356,5 @@ $linkedin-color: #f9a03f;
 
 	.container {
 		max-width: 940px;
-	}
-
-	#bbco-proj .card-title {
-		font-size: 20px;
 	}
 }
