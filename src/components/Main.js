@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 
 const work = [
-
 	{
 		id:'proj-game-of-life',
 		title: "Conway's Game of Life",
@@ -94,27 +93,15 @@ const work = [
 	}
 ];
 
-const skillSet = [
-	'HTML',
-	'CSS',
-	'Sass',
-	'JavaScript',
-	'React.js',
-	'Node.js',
-	'mySql',
-	'Bootstrap',
-	'jQuery'
-];
-
 const Header = () => (
 	<div className='header fixed-top' id='header'>
 		<nav className="navbar navbar-expand-sm navbar-dark">
 		  <a className="navbar-brand font-weight-bold">WILLIAM LEUNG</a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
+			<button className="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span className="navbar-toggler-icon"></span>
 		  </button>
 		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
-		    <ul className="nav navbar-nav justify-content-end container">
+		    <ul className="nav navbar-nav justify-content-end container-fluid">
 		      <li className="nav-item">
 		        <a className="nav-link" href="#about">Bio</a>
 		      </li>
@@ -143,7 +130,7 @@ const About = () => {
 						</div>
 						<div className='col-md-8 order-md-2 text-sm-center'>
               <div className='item-wrapper'>
-                <img className='img-fluid img-thumbnail mx-auto' src='http://via.placeholder.com/400x400' alt='picuter'/>
+                <img className='img-fluid img-thumbnail mx-auto' src='https://user-images.githubusercontent.com/16066443/38411306-a3f496fe-393b-11e8-876f-ff246c4436ac.jpg' alt='picuter'/>
               </div>
             </div>
             <div className='col-md-4 order-md-1  text-sm-center'>
