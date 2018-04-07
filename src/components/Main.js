@@ -134,9 +134,9 @@ const About = () => {
               </div>
             </div>
             <div className='col-md-4 order-md-1  text-sm-center'>
-              <h5>Hello.</h5>
+              <h5>Hello!</h5>
               <hr/>
-              <p>My name is Will. I'm a Full Stack Developer based in Los Angeles, CA. I enjoy more on learning Front-end technologies. I have a niche in computers and passionatate to learning new technologies.
+              <p>My name is Will. I'm a Full Stack Developer based in Los Angeles, CA with a preference to Front-End. I have a niche in computers and a passion in learning new technology. My skills are versatile as I enjoy problem solving.
               </p>
               <hr/>
             </div>
@@ -247,7 +247,7 @@ const Footer = () => {
 							<h4 className='text-sm-center contact-title'>Contact</h4>
 						</div>
 						<div className='col-md-12'>
-							<p className='text-sm-center'>I am avaialble to website design and development work. If you have any projects that you'd like help with, I'd love to work with you. </p>
+							<p className='text-sm-center'>I am available for website design and development work. If you have any projects that you'd like help with or an open position, feel free to contact me. </p>
 						</div>
 						<div className='col-md-12 text-sm-center '>
 							<a href='https://github.com/thisiswhale' target='_blank'><i className="fab fa-github fa-2x icon-github "></i></a>
