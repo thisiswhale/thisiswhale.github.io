@@ -103,16 +103,16 @@ const Header = () => (
 		  <div className="collapse navbar-collapse font-weight-bold" id="navbarNav">
 		    <ul className="nav navbar-nav justify-content-end container-fluid">
 		      <li className="nav-item">
-		        <a className="nav-link" href="#about">Bio</a>
+		        <a className="nav-link js-scroll-trigger" href="#about">Bio</a>
 		      </li>
 		      <li className="nav-item">
-		        <a className="nav-link" href="#skills">Skills</a>
+		        <a className="nav-link js-scroll-trigger" href="#skills">Skills</a>
 		      </li>
 		      <li className="nav-item">
-		        <a className="nav-link" href="#work">Work</a>
+		        <a className="nav-link js-scroll-trigger" href="#work">Work</a>
 		      </li>
 					<li className="nav-item">
-						<a className="nav-link" href="#contact">Contact</a>
+						<a className="nav-link js-scroll-trigger" href="#contact">Contact</a>
 					</li>
 		    </ul>
 		  </div>
