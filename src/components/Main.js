@@ -56,10 +56,10 @@ const work = [
 		title: 'Nerf This!',
 		alt:'nerf this image',
 		image: 'https://user-images.githubusercontent.com/16066443/38351027-b5fadb44-3862-11e8-8114-b172fb6e12db.JPG',
-		description: 'Collab.	A strategy tool app for a popular video game that uses user-based data algorithm to find the best team composition for your plays.',
+		description: 'Collab.	A strategy tool app for Overwatch that uses user-based data to find team composition to win.',
  		demo: 'https://dry-journey-45708.herokuapp.com/',
 		github: 'https://github.com/thisiswhale/NerfThis',
-		skills: ['HTML' , 'Bootstrap' , 'Node.js' , 'Express', 'MySql']
+		skills: ['Bootstrap' , 'Node.js' , 'Express', 'MySql']
 	},
 	{
 		id:'proj-emviews',
@@ -72,14 +72,14 @@ const work = [
 		skills: ['HTML', 'Bootstrap', 'jQuery', 'Ajax']
 	},
 	{
-		id:'proj-pokemon-hangman',
-		title: "Who's That Pokemon",
-		image: 'https://user-images.githubusercontent.com/16066443/27000477-f9b45b6c-4d67-11e7-9072-01046fe262a3.JPG',
-		alt:'pokemon hangman image',
-		description: 'Personal. A simple Hangman game with that nostalgia Pokemon feels. It got the Pokemon fonts, it got the Pokemon crys, and it got that Pokemon Theme. Gotta Guess Them ALL!!',
-		demo: 'https://thisiswhale.github.io/WhosThatPokemon/',
-		github: 'https://github.com/thisiswhale/WhosThatPokemon',
-		skills: ['HTML', 'CSS', 'JavaScript']
+		id:'proj-nty',
+		title: "New York Times Article Search",
+		image: 'https://user-images.githubusercontent.com/16066443/39856036-42e86332-53e3-11e8-986f-29fa76edf0ac.JPG',
+		alt:'nyt image',
+		description: 'Personal. Simple CRUD APP using NYT API.',
+		demo: 'https://search-nyt.herokuapp.com',
+		github: 'https://github.com/thisiswhale/NYT-react',
+		skills: ['React', 'Express', 'MongoDB', 'Node.js','Bootstrap']
 	},
 	{
 		id:'proj-pomodoro',
@@ -90,7 +90,47 @@ const work = [
 		demo: 'https://thisiswhale.github.io/Pomodoro-Timer/',
 		github: 'https://github.com/thisiswhale/Pomodoro-Timer',
 		skills: ['HTML', 'Sass', 'JavaScript']
-	}
+	},
+	{
+		id:'proj-bamazon',
+		title: "Bamazon",
+		image: 'https://raw.githubusercontent.com/thisiswhale/Bamazon/master/images/customer1.jpg',
+		alt:'bamazon image',
+		description: 'Personal.  Amazon-like storefront using MySQL.',
+		demo: 'https://github.com/thisiswhale/Bamazon',
+		github: 'https://github.com/thisiswhale/Bamazon',
+		skills: ['Node.js', 'MySQL']
+	},
+	{
+		id:'proj-friendfinder',
+		title: "Friend Finder",
+		image: 'https://user-images.githubusercontent.com/16066443/39607647-f2b07afe-4ef0-11e8-99cb-e527a8bbf89e.gif',
+		alt:'friend image',
+		description: 'Personal.  Find a friend with this survery.',
+		demo: 'https://friendfinder-whale.herokuapp.com/',
+		github: 'https://github.com/thisiswhale/FriendFinder',
+		skills: ['JavaScript','Foundation','Node.js', 'Express']
+	},
+	{
+		id:'proj-trivia',
+		title: "Coffee Trivia",
+		image: 'https://user-images.githubusercontent.com/16066443/39556137-f0bb352c-4e32-11e8-9969-3e2970937cc0.JPG',
+		alt:'coffee image',
+		description: 'Personal.  Fun trivia game about coffee.',
+		demo: 'https://thisiswhale.github.io/TriviaGame/',
+		github: 'https://github.com/thisiswhale/TriviaGame',
+		skills: ['HTML','CSS','JavaScript', 'jQuery']
+	},
+	{
+		id:'proj-pokemon-hangman',
+		title: "Who's That Pokemon",
+		image: 'https://user-images.githubusercontent.com/16066443/27000477-f9b45b6c-4d67-11e7-9072-01046fe262a3.JPG',
+		alt:'pokemon hangman image',
+		description: 'Personal. A simple Hangman game with that nostalgia feels. Gotta Guess Them ALL!!',
+		demo: 'https://thisiswhale.github.io/WhosThatPokemon/',
+		github: 'https://github.com/thisiswhale/WhosThatPokemon',
+		skills: ['HTML', 'CSS', 'JavaScript']
+	},
 ];
 
 const Header = () => (
